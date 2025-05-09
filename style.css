@@ -326,16 +326,25 @@ nav li:first-child {
 }
 @media (max-width: 766px) {
   .about_section {
-    height: 200vh;
+    height: 180vh;
   }
   .about_container1,
   .about_container2,
   .about_container3 {
     flex-direction: column;
-    margin-bottom: 50px;
+  }
+  .about_container1,
+  .about_container2 {
+    margin-bottom: 40px;
+  }
+  .about_container3 {
+    margin-bottom: 0;
   }
   .about_section {
     padding: 0 180px;
+  }
+  .about_containers h1 {
+    margin-bottom: 40px;
   }
 }
 /* About Section Medi Query End*/
