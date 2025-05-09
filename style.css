@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-padding-top: 30px; /* Adjust the value to match your fixed header height */
+  scroll-behavior: smooth;
+}
 body {
   min-height: 100vh;
   background-image: url("images/background_img.jpg");
