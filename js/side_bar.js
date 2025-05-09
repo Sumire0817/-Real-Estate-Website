@@ -10,4 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
   closeBarEl.addEventListener("click", () => {
     sidebarEl.style.display = "none";
   });
+  //When the screen is back in pc view the sidebar should be hidden
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 850) {
+      sidebarEl.style.display = "none";
+    }
+  });
 });
