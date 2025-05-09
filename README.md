@@ -9,5 +9,5 @@ This is my submission for the Junior Web Builder Assessment by Luxury Presence.
 ## Features
 
 Responsive layout
-Clean HTML, Css and Js
+Clean Html, Css and Js
 Based on the provided design/mockup
