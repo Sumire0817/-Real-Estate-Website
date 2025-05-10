@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/realtor.css" />
     <link rel="stylesheet" href="css/search_box.css" />
     <link rel="stylesheet" href="css/sponsor.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -72,7 +73,7 @@
     </header>
     <!-- End of Header -->
     <!-- Start of Main -->
-    <>
+    <main>
       <!-- Home Section -->
       <section class="home_section">
         <div class="home_container">
@@ -214,10 +215,37 @@
       </section>
       <!--End of Sponsor Logo Section-->
       <!--Gallery Section-->
-      <!--End of Gallery Section-->
+      <section class="photo_gallery_section">
+        <div class="photo_gallery_container">
+          <h1>Photo Gallery</h1>
+          <div class="main_viewer">
+            <button class="nav left">←</button>
+            <img
+              id="mainImage"
+              src="images/gallery_photo1.webp"
+              alt="Main view"
+            />
+            <button class="nav right">→</button>
+          </div>
+
+          <div class="thumbnail_row">
+            <img
+              src="images/gallery_photo1.webp"
+              alt="Thumb 1"
+              class="thumb active"
+            />
+            <img src="images/gallery_photo2.webp" alt="Thumb 2" class="thumb" />
+            <img src="images/gallery_photo3.webp" alt="Thumb 3" class="thumb" />
+            <img src="images/gallery_photo4.webp" alt="Thumb 4" class="thumb" />
+            <img src="images/gallery_photo5.webp" alt="Thumb 5" class="thumb" />
+            <img src="images/gallery_photo6.webp" alt="Thumb 6" class="thumb" />
+          </div>
+        </div>
+      </section>
       <!--End of Gallery Section-->
     </main>
     <!-- End of Main -->
   </body>
   <script src="js/side_bar.js"></script>
+  <script src="js/gallery.js"></script>
 </html>
