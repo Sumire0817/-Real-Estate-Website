@@ -28,12 +28,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px;
+  padding: 0px 20px;
   gap: 20px;
 }
 .service_card img {
-  width: 350px;
-  height: 350px;
+  width: 340px;
+  height: 340px;
   border-radius: 100%;
 }
 .service_card h2 {
@@ -53,6 +53,14 @@
   }
 }
 @media (max-width: 1260px) {
+  .service_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+    gap: 20px;
+  }
   .service_card img {
     width: 250px;
     height: 250px;
@@ -82,26 +90,26 @@
   .service_card p {
     font-size: 0.7rem;
   }
-  @media (max-width: 700px) {
-    .services_container {
-      height: 100%;
-    }
-    .service_card img {
-      width: 300px;
-      height: 300px;
-    }
-    .services_title h1 {
-      font-size: 3rem;
-    }
-    .service_card h2 {
-      font-size: 1.7rem;
-    }
-    .service_card p {
-      font-size: 1.1rem;
-    }
-    .services_cards_container {
-      flex-direction: column;
-      gap: 40px;
-    }
+}
+@media (max-width: 700px) {
+  .services_container {
+    height: 100%;
+  }
+  .service_card img {
+    width: 300px;
+    height: 300px;
+  }
+  .services_title h1 {
+    font-size: 3rem;
+  }
+  .service_card h2 {
+    font-size: 1.7rem;
+  }
+  .service_card p {
+    font-size: 1.1rem;
+  }
+  .services_cards_container {
+    flex-direction: column;
+    gap: 40px;
   }
 }

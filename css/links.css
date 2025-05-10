@@ -1,0 +1,19 @@
+.links_section {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links_container {
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.links_container a {
+  font-size: 40px; /* Adjust size as needed */
+  color: white;
+}
