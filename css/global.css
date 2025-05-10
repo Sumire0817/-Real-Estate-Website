@@ -1,0 +1,33 @@
+/* Main CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-padding-top: 30px;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background-image: url("../images/background_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+/*Place an overlay to make the image darker*/
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  pointer-events: none;
+}
