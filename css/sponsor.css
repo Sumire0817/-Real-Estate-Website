@@ -1,0 +1,22 @@
+.sponsor_section {
+  background-color: white;
+}
+.sponsor_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .sponsor_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.sponsor_container img {
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  display: block;
+}
