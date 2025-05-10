@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/realtor.css" />
+    <link rel="stylesheet" href="css/search_box.css" />
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +41,7 @@
           </li>
           <li><a class="nav_links" href="#">HOME</a></li>
           <li><a class="nav_links" href="#About">ABOUT</a></li>
-          <li><a class="nav_links" href="#">RENTALS</a></li>
+          <li><a class="nav_links" href="#Search">SEARCH</a></li>
           <li><a class="nav_links" href="#">SERVICES</a></li>
           <li><a class="nav_links" href="#">CONTACT</a></li>
         </ul>
@@ -54,7 +55,9 @@
           </li>
           <li><a class="nav_links hide_list_mobile" href="#">HOME</a></li>
           <li><a class="nav_links hide_list_mobile" href="#About">ABOUT</a></li>
-          <li><a class="nav_links hide_list_mobile" href="#">RENTALS</a></li>
+          <li>
+            <a class="nav_links hide_list_mobile" href="#Search">SEARCH</a>
+          </li>
           <li><a class="nav_links hide_list_mobile" href="#">SERVICES</a></li>
           <li><a class="nav_links hide_list_mobile" href="#">CONTACT</a></li>
           <li>
@@ -142,6 +145,62 @@
         </div>
       </section>
       <!--End of About Section-->
+      <!--Search Box Section-->
+      <section class="search_section" id="Search">
+        <div class="search_container">
+          <h2>Search Listings</h2>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Location</label>
+              <select>
+                <option>Any</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Type</label>
+              <select>
+                <option>Any</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Sort By</label>
+              <select>
+                <option></option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Bedrooms</label>
+              <select>
+                <option>Any Number</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Baths</label>
+              <select>
+                <option>Any Number</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Min Price</label>
+              <input type="text" />
+            </div>
+
+            <div class="form-group">
+              <label>Max Price</label>
+              <input type="text" />
+            </div>
+
+            <div class="search-button-container">
+              <button class="search-button">SEARCH NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- End of Main -->
   </body>
