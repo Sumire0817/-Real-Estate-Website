@@ -106,6 +106,6 @@ input[type="text"] {
 }
 @media (max-width: 700px) {
   .search_container {
-    padding: 60px;
+    padding: 20px;
   }
 }
