@@ -1,0 +1,19 @@
+.maps_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.maps_container {
+  width: 100%;
+}
+
+.maps_container iframe {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  border: none;
+}
