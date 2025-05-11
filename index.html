@@ -318,35 +318,50 @@
       </section>
       <!--End of Links Section-->
       <!--Contacts Section-->
-      <section class="services_section" id="Contact">
-        <div class="services_container">
-          <div class="services_title">
-            <h1>Our Services</h1>
-          </div>
-          <div class="services_cards_container">
-            <div class="service_card">
-              <img src="images/service_card1.webp" alt="service_card" />
-              <h2>Real Estate Done Right</h2>
-              <p>
-                Nervous about your property adventure? Don’t be. Whether you're
-                getting ready to buy or sell your residence, looking at
-                investment properties, or just curious about the markets, our
-                team ensures you get the best experience possible!
-              </p>
-            </div>
+      <section class="contact-container" id="Contact">
+          <!-- Left Form Section -->
+          <div class="contact-form">
+            <h2>Send Message</h2>
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
 
-            <div class="service_card">
-              <img src="images/service_card2.webp" alt="service_card" />
-              <h2>Commercial & Residential</h2>
-              <p>
-                Large or small, condo or mansion, we can find it and get at the
-                price that's right. Fixer-uppers? Luxury? We can help with all
-                of it! We live, work, and play in this community. Happy to help
-                you find where to put you hard-earned dollars.
-              </p>
-            </div>
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+
+              <button type="submit" class="send-btn">Send</button>
+            </form>
+            <p class="captcha-text">
+              This site is protected by reCAPTCHA and the Google
+              <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+            </p>
           </div>
-        </div>
+          <!-- Right Info Section -->
+          <div class="contact-info">
+            <a href="https://api.whatsapp.com/send/?phone=14259412560&text&type=phone_number&app_absent=0" target="_blank" class="whatsapp-btn">💬 Message us on WhatsApp</a>
+
+            <p><strong>Marci Metzger - THE RIDGE REALTY GROUP</strong></p>
+            <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+            <a href="tel:2069196886" class="contact_number"><p>(206) 919-6886</p></a>
+            <h3>Office Hours</h3>
+            <div class="hours-dropdown">
+              <div class="dropdown-toggle" onclick="toggleDropdown()">Open today <span>08:00 am – 07:00 pm</span> ⬇️</div>
+              <ul class="hours-list" id="hoursList">
+                <li>Monday: 08:00 am – 07:00 pm</li>
+                <li>Tuesday: 08:00 am – 07:00 pm</li>
+                <li>Wednesday: 08:00 am – 07:00 pm</li>
+                <li>Thursday: 08:00 am – 07:00 pm</li>
+                <li>Friday: 08:00 am – 07:00 pm</li>
+                <li>Saturday: 08:00 am – 07:00 pm</li>
+                <li>Sunday: 08:00 am – 07:00 pm</li>
+              </ul>
+            </div>
+            <p>Open daily &nbsp; 8:00 am - 7:00 pm</p>
+            <p>Appointments outside office hours available upon request. Just call!</p>
+          </div>
       </section>
       <!--End of Contacts Section-->
       <!-- Start of Maps Section-->
@@ -397,4 +412,5 @@
   </body>
   <script src="js/side_bar.js"></script>
   <script src="js/gallery.js"></script>
+  <script src="js/dropdown.js"></script>
 </html>

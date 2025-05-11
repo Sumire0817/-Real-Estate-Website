@@ -1,0 +1,144 @@
+.contact-container {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.send-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: fit-content;
+}
+
+.captcha-text {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+.contact-info {
+  font-size: 16px;
+}
+
+.contact-info h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #3b4a54;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info span {
+  color: #a97c7c;
+}
+.contact_number {
+  color: #a97c7c;
+}
+
+.hours-dropdown {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hours-list {
+  display: none;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.hours-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.hours-list li:last-child {
+  border-bottom: none;
+}
+
+/* Focus Style for Dropdown */
+.dropdown-toggle:focus {
+  outline: 2px solid #000;
+  outline-offset: 4px;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Make the dropdown take up more space on mobile */
+  .hours-list {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .dropdown-toggle {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
